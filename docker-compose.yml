@@ -1,0 +1,21 @@
+version: "3"
+services:
+  mongo:
+    container_name: mongo1
+    image: mongo
+    ports:
+      - "27017:27017"
+
+  web:
+    container_name: web
+    build: ./frontend
+    ports: 
+       - "8080:8080"
+    
+  # server:
+  #   container_name: server
+  #   build: .
+  #   depends_on:
+  #     - mongo
+  #   ports: 
+  #      - "127.0.0.1:3000:3000"
