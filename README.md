@@ -11,5 +11,5 @@ In terminal 1
 - ```docker-compose up``` <br>
 
 In terminal 2
-- ```npm install'' <br>
+- ```npm install``` <br>
 - ```npm run prod```
