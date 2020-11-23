@@ -12,4 +12,6 @@ In terminal 1
 
 In terminal 2
 - ```npm install``` <br>
-- ```npm run prod```
+- ```npm run prod``` <br>
+
+*App running at: http://localhost:8080/*
